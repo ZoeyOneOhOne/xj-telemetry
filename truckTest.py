@@ -33,11 +33,11 @@ try:
 			response = connection.query(command)
 			if response.value is not None:
 				print(f"{name}: {response.value}")
-				with open("log.txt", "a") as f:
+				with open("truckLog.txt", "a") as f:
 					f.write(f"{name}: {response.value}" + "\n")
 			else:
 				print(f"{name}: No Data")
-				with open("log.txt", "a") as f:
+				with open("truckLog.txt", "a") as f:
 					f.write(f"{name}: No Data" + "\n")
 		time.sleep(1)
 		

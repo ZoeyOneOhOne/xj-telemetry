@@ -1,0 +1,49 @@
+RPM: No DataSpeed: 0.0 kilometer_per_hourThrottle Position: 14.509803921568627 percentIntake Air Temp: 68 degree_CelsiusMass Air Flow: No DataTiming Advance: 13.0 degreeEngine Load: 4.313725490196078 percentRPM: 725.0 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 14.509803921568627 percentIntake Air Temp: 68 degree_CelsiusMass Air Flow: No DataTiming Advance: 16.5 degreeEngine Load: 4.313725490196078 percentRPM: 744.75 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 14.509803921568627 percentIntake Air Temp: 68 degree_CelsiusMass Air Flow: No DataTiming Advance: 12.5 degreeEngine Load: 4.313725490196078 percentRPM: 1338.5 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 19.607843137254903 percentIntake Air Temp: 68 degree_CelsiusMass Air Flow: No DataTiming Advance: 27.0 degreeEngine Load: 7.8431372549019605 percentRPM: 1833.25 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 21.176470588235293 percentIntake Air Temp: 67 degree_CelsiusMass Air Flow: No DataTiming Advance: 43.0 degreeEngine Load: 16.07843137254902 percentRPM: 2947.0 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 20.0 percentIntake Air Temp: 67 degree_CelsiusMass Air Flow: No DataTiming Advance: 40.0 degreeEngine Load: 10.980392156862745 percentRPM: 2336.5 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 16.470588235294116 percentIntake Air Temp: 67 degree_CelsiusMass Air Flow: No DataTiming Advance: 37.5 degreeEngine Load: 7.8431372549019605 percentRPM: 1215.5 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 14.509803921568627 percentIntake Air Temp: 67 degree_CelsiusMass Air Flow: No DataTiming Advance: 30.5 degreeEngine Load: 8.627450980392156 percentRPM: 1033.75 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 14.509803921568627 percentIntake Air Temp: 67 degree_CelsiusMass Air Flow: No DataTiming Advance: 16.0 degreeEngine Load: 4.313725490196078 percentRPM: 730.5 revolutions_per_minuteSpeed: 0.0 kilometer_per_hourThrottle Position: 14.509803921568627 percentRPM: No Data
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 14.509803921568627 percent
+Intake Air Temp: 80 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 10.0 degree
+Engine Load: 4.313725490196078 percent
+RPM: 765.25 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 16.470588235294116 percent
+Intake Air Temp: 80 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 14.0 degree
+Engine Load: 6.2745098039215685 percent
+RPM: 1872.25 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 14.509803921568627 percent
+Intake Air Temp: 79 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 30.5 degree
+Engine Load: 5.882352941176471 percent
+RPM: 1196.75 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 18.431372549019606 percent
+Intake Air Temp: 79 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 34.5 degree
+Engine Load: 9.803921568627452 percent
+RPM: 1977.5 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 17.647058823529413 percent
+Intake Air Temp: 79 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 38.5 degree
+Engine Load: 9.019607843137255 percent
+RPM: 1865.0 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 14.509803921568627 percent
+Intake Air Temp: 79 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 30.0 degree
+Engine Load: 5.882352941176471 percent
+RPM: 846.5 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 14.509803921568627 percent
+Intake Air Temp: 79 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: 12.0 degree
+Engine Load: 4.705882352941177 percent

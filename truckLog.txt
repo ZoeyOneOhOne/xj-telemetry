@@ -1,0 +1,70 @@
+RPM: 749.75 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 0.0 percent
+Intake Air Temp: 17 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: 0.0 percent
+RPM: 748.75 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 0.0 percent
+Intake Air Temp: No Data
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: 0.0 percent
+RPM: 752.25 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: 0.0 percent
+Intake Air Temp: 17 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: 0.0 percent
+RPM: 780.0 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: No Data
+Intake Air Temp: 17 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: 6.666666666666667 percent
+RPM: 1092.75 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: No Data
+Intake Air Temp: 17 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: 16.470588235294116 percent
+RPM: 1641.0 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: No Data
+Intake Air Temp: 17 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: No Data
+RPM: 2524.25 revolutions_per_minute
+Speed: No Data
+Throttle Position: 5.882352941176471 percent
+Intake Air Temp: 17 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: No Data
+RPM: 1565.25 revolutions_per_minute
+Speed: No Data
+Throttle Position: 0.0 percent
+Intake Air Temp: 16 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: No Data
+RPM: 779.5 revolutions_per_minute
+Speed: No Data
+Throttle Position: 0.0 percent
+Intake Air Temp: 16 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: No Data
+RPM: 747.0 revolutions_per_minute
+Speed: 0.0 kilometer_per_hour
+Throttle Position: No Data
+Intake Air Temp: 16 degree_Celsius
+Mass Air Flow: No Data
+Timing Advance: No Data
+Engine Load: 0.0 percent
