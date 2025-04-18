@@ -28,10 +28,10 @@ commands =  {
 
 try:
 	while True:
-		print("OBD2 Data"
+		print("OBD2 Data")
 		for name, command in commands.items():
 			response = connection.query(command)
-			if response.valueis not None:
+			if response.value is not None:
 				print(f"{name}: {response.value}")
 			else:
 				print(f"{name}: No Data")
@@ -40,4 +40,3 @@ try:
 except KeyboardInterrupt:
 	print("Exiting OBD2 reader")
 	connection.close()
-`````       
