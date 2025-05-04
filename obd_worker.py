@@ -1,6 +1,7 @@
 from PyQt5.QtCore import QThread, pyqtSignal
 import obd
 import time
+import logging
 
 class OBDWorker(QThread):
     rpm_signal = pyqtSignal(float)
@@ -8,26 +9,33 @@ class OBDWorker(QThread):
     intake_temp_signal = pyqtSignal(float)
     timing_advance_signal = pyqtSignal(float)
     print_signal = pyqtSignal(str)  # Signal for printing messages
+    obd.logger.setLevel(logging.DEBUG)
 
     def __init__(self):
         super().__init__()
         self._running = True
 
     def run(self):
-        print("Worker thread started.")  # Debugging thread start
-        connection = obd.OBD()
+        print("Worker thread started.")
+        try:
+            connection = obd.OBD()
+            self.print_signal.emit("OBD connection object created.")
+        except Exception as e:
+            self.print_signal.emit(f"Exception during OBD connection: {e}")
+            return
+        
         timeout = 5
         start_time = time.time()
 
         while not connection.is_connected() and time.time() - start_time < timeout:
-            self.print_signal.emit("Waiting for OBD2 adapter to connect...")
+            print("Waiting for OBD2 adapter to connect...")
             time.sleep(1)
 
         if not connection.is_connected():
-            self.print_signal.emit("Failed to connect to OBD2 adapter")
+            print("Failed to connect to OBD2 adapter")
             return
 
-        self.print_signal.emit("OBD2 adapter connected.")
+        print("OBD2 adapter connected.")
 
         commands = {
             "RPM": (obd.commands.RPM, self.rpm_signal),

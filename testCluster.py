@@ -9,6 +9,18 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        self.worker = OBDWorker()
+
+        # Connect signals from the worker to the GUI
+        self.worker.rpm_signal.connect(self.ui.rpm_dial.setValue)
+        self.worker.engine_load_signal.connect(self.ui.engine_load_dial.setValue)
+        self.worker.intake_temp_signal.connect(self.ui.intake_temp_dial.setValue)
+        self.worker.timing_advance_signal.connect(self.ui.timing_advance_dial.setValue)
+        self.worker.print_signal.connect(print)  # Route worker print messages to the terminal
+
+        # Start the thread
+        self.worker.start()
+
         # Set a custom style sheet to make the dial look cooler
         self.ui.rpm_dial.setStyleSheet("""
             QDial {
