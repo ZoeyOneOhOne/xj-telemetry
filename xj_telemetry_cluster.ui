@@ -17,8 +17,8 @@
    <widget class="QLabel" name="mph_label">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>70</y>
+      <x>580</x>
+      <y>230</y>
       <width>71</width>
       <height>51</height>
      </rect>
@@ -35,15 +35,15 @@
    <widget class="QLabel" name="mph">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>120</y>
-      <width>101</width>
-      <height>121</height>
+      <x>500</x>
+      <y>140</y>
+      <width>121</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>36</pointsize>
+      <pointsize>78</pointsize>
      </font>
     </property>
     <property name="text">
@@ -53,10 +53,10 @@
    <widget class="QDial" name="rpm_dial">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>120</y>
-      <width>161</width>
-      <height>171</height>
+      <x>20</x>
+      <y>30</y>
+      <width>281</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="maximum">
@@ -66,8 +66,8 @@
    <widget class="QLabel" name="rpm_label">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>80</y>
+      <x>130</x>
+      <y>0</y>
       <width>71</width>
       <height>31</height>
      </rect>
@@ -84,8 +84,8 @@
    <widget class="QLabel" name="rpm">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>170</y>
+      <x>100</x>
+      <y>100</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -99,6 +99,195 @@
      <string>0</string>
     </property>
    </widget>
+   <widget class="QLabel" name="engine_load">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>110</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="engine_load_label">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>10</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>engine load</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="engine_load_dial">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>30</y>
+      <width>281</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>8000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="intake_temp">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="intake_temp_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>430</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Intake Air Temp</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="intake_temp_dial">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>281</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>8000</number>
+    </property>
+   </widget>
+   <widget class="QDial" name="timing_advance_dial">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>220</y>
+      <width>281</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>8000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timing_advance">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>300</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timing_advance_label">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>430</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Timing Advance</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="throttle_pos">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>350</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="maf">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>350</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>58</number>
+    </property>
+   </widget>
+   <zorder>mph_label</zorder>
+   <zorder>mph</zorder>
+   <zorder>rpm_dial</zorder>
+   <zorder>rpm_label</zorder>
+   <zorder>rpm</zorder>
+   <zorder>engine_load_label</zorder>
+   <zorder>intake_temp_label</zorder>
+   <zorder>intake_temp_dial</zorder>
+   <zorder>timing_advance_dial</zorder>
+   <zorder>timing_advance</zorder>
+   <zorder>timing_advance_label</zorder>
+   <zorder>throttle_pos</zorder>
+   <zorder>maf</zorder>
+   <zorder>engine_load_dial</zorder>
+   <zorder>engine_load</zorder>
+   <zorder>intake_temp</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
